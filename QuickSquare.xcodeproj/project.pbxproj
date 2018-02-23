@@ -7,21 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41EAC3C14D591CE2DA52AA21 /* Pods_QuickSquare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBE9B7BB35E90E95CF38998 /* Pods_QuickSquare.framework */; };
+		422604F81F021A4700E2ED79 /* StickerCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422604F71F021A4700E2ED79 /* StickerCollectionVC.swift */; };
+		422604FC1F02304700E2ED79 /* StickerTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422604FB1F02304700E2ED79 /* StickerTableCell.swift */; };
+		422604FE1F02306700E2ED79 /* StickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422604FD1F02306700E2ED79 /* StickerCollectionViewCell.swift */; };
+		422605001F0255C900E2ED79 /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422604FF1F0255C900E2ED79 /* TestVC.swift */; };
 		423003B21EFBE13A00A5510A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423003B11EFBE13A00A5510A /* AppDelegate.swift */; };
-		423003B41EFBE13A00A5510A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423003B31EFBE13A00A5510A /* ViewController.swift */; };
 		423003B71EFBE13B00A5510A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423003B51EFBE13B00A5510A /* Main.storyboard */; };
-		423003B91EFBE13B00A5510A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423003B81EFBE13B00A5510A /* Assets.xcassets */; };
 		423003BC1EFBE13B00A5510A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423003BA1EFBE13B00A5510A /* LaunchScreen.storyboard */; };
+		423003C41EFBE15C00A5510A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 423003C31EFBE15C00A5510A /* Podfile */; };
+		423003F51EFBEBB800A5510A /* QuickSquareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423003F41EFBEBB800A5510A /* QuickSquareVC.swift */; };
+		423003F81EFBF58700A5510A /* Blurry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423003F71EFBF58700A5510A /* Blurry.swift */; };
+		429035511F04C6F000FCBCD1 /* lookup_amatorka.png in Resources */ = {isa = PBXBuildFile; fileRef = 4290354C1F04C6F000FCBCD1 /* lookup_amatorka.png */; };
+		429035521F04C6F000FCBCD1 /* lookup_miss_etikate.png in Resources */ = {isa = PBXBuildFile; fileRef = 4290354D1F04C6F000FCBCD1 /* lookup_miss_etikate.png */; };
+		429035531F04C6F000FCBCD1 /* lookup_soft_elegance_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4290354E1F04C6F000FCBCD1 /* lookup_soft_elegance_1.png */; };
+		429035541F04C6F000FCBCD1 /* lookup_soft_elegance_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4290354F1F04C6F000FCBCD1 /* lookup_soft_elegance_2.png */; };
+		429035551F04C6F000FCBCD1 /* lookup.png in Resources */ = {isa = PBXBuildFile; fileRef = 429035501F04C6F000FCBCD1 /* lookup.png */; };
+		429035671F04DC8500FCBCD1 /* BeginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429035661F04DC8500FCBCD1 /* BeginVC.swift */; };
+		4290356C1F04E21D00FCBCD1 /* GPUCameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4290356B1F04E21D00FCBCD1 /* GPUCameraVC.swift */; };
+		42B59C541F00DE8C00E7E56E /* TOCropViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B59C531F00DE8C00E7E56E /* TOCropViewController.framework */; };
+		42C5EA3B1EFCD5E800500918 /* Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C5EA3A1EFCD5E800500918 /* Methods.swift */; };
+		42DB8F161F2B04B900BF17B2 /* CHTStickerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DB8F151F2B04B900BF17B2 /* CHTStickerView.framework */; };
+		42DB8F261F2B122600BF17B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42DB8F251F2B122600BF17B2 /* Assets.xcassets */; };
+		42ED5DC51F3D7B7C0038DFBC /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42ED5DC21F3D7B630038DFBC /* GPUImage.framework */; };
+		42ED5DC61F3D7B850038DFBC /* GPUImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 42ED5DC21F3D7B630038DFBC /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		42ED5DBF1F3D7B630038DFBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42ED5DB91F3D7B630038DFBC /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
+		42ED5DC11F3D7B630038DFBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42ED5DB91F3D7B630038DFBC /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCE209E51943F20C002FEED8;
+			remoteInfo = GPUImageFramework;
+		};
+		42ED5DC31F3D7B750038DFBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42ED5DB91F3D7B630038DFBC /* GPUImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE209E41943F20C002FEED8;
+			remoteInfo = GPUImageFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		429035641F04C77500FCBCD1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				42ED5DC61F3D7B850038DFBC /* GPUImage.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		422604F71F021A4700E2ED79 /* StickerCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerCollectionVC.swift; sourceTree = "<group>"; };
+		422604FB1F02304700E2ED79 /* StickerTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerTableCell.swift; sourceTree = "<group>"; };
+		422604FD1F02306700E2ED79 /* StickerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		422604FF1F0255C900E2ED79 /* TestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestVC.swift; path = ../TestVC.swift; sourceTree = "<group>"; };
 		423003AE1EFBE13A00A5510A /* QuickSquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickSquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		423003B11EFBE13A00A5510A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		423003B31EFBE13A00A5510A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		423003B61EFBE13B00A5510A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		423003B81EFBE13B00A5510A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		423003BB1EFBE13B00A5510A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		423003BD1EFBE13B00A5510A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423003C31EFBE15C00A5510A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		423003C51EFBE1E400A5510A /* CHTStickerView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CHTStickerView.framework; path = "Pods/../build/Debug-iphoneos/CHTStickerView/CHTStickerView.framework"; sourceTree = "<group>"; };
+		423003F41EFBEBB800A5510A /* QuickSquareVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickSquareVC.swift; sourceTree = "<group>"; };
+		423003F71EFBF58700A5510A /* Blurry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blurry.swift; sourceTree = "<group>"; };
+		4290354C1F04C6F000FCBCD1 /* lookup_amatorka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup_amatorka.png; sourceTree = "<group>"; };
+		4290354D1F04C6F000FCBCD1 /* lookup_miss_etikate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup_miss_etikate.png; sourceTree = "<group>"; };
+		4290354E1F04C6F000FCBCD1 /* lookup_soft_elegance_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup_soft_elegance_1.png; sourceTree = "<group>"; };
+		4290354F1F04C6F000FCBCD1 /* lookup_soft_elegance_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup_soft_elegance_2.png; sourceTree = "<group>"; };
+		429035501F04C6F000FCBCD1 /* lookup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup.png; sourceTree = "<group>"; };
+		429035661F04DC8500FCBCD1 /* BeginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeginVC.swift; sourceTree = "<group>"; };
+		4290356B1F04E21D00FCBCD1 /* GPUCameraVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPUCameraVC.swift; sourceTree = "<group>"; };
+		42B59C531F00DE8C00E7E56E /* TOCropViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TOCropViewController.framework; path = "Pods/../build/Debug-iphoneos/TOCropViewController/TOCropViewController.framework"; sourceTree = "<group>"; };
+		42C5EA3A1EFCD5E800500918 /* Methods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Methods.swift; sourceTree = "<group>"; };
+		42C5EA411EFCEB4900500918 /* QuickSquare-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuickSquare-Bridging-Header.h"; sourceTree = "<group>"; };
+		42DB8F151F2B04B900BF17B2 /* CHTStickerView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CHTStickerView.framework; path = "Pods/../build/Debug-iphoneos/CHTStickerView/CHTStickerView.framework"; sourceTree = "<group>"; };
+		42DB8F251F2B122600BF17B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42ED5DB91F3D7B630038DFBC /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = "../../../../../Downloads/GPUImage-master/framework/GPUImage.xcodeproj"; sourceTree = "<group>"; };
+		5DBE9B7BB35E90E95CF38998 /* Pods_QuickSquare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickSquare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F2A8BC8E816EDE42DC42444 /* Pods-QuickSquare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickSquare.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickSquare/Pods-QuickSquare.release.xcconfig"; sourceTree = "<group>"; };
+		DCE4234658CE87625BACC168 /* Pods-QuickSquare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickSquare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickSquare/Pods-QuickSquare.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +107,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42ED5DC51F3D7B7C0038DFBC /* GPUImage.framework in Frameworks */,
+				42DB8F161F2B04B900BF17B2 /* CHTStickerView.framework in Frameworks */,
+				42B59C541F00DE8C00E7E56E /* TOCropViewController.framework in Frameworks */,
+				41EAC3C14D591CE2DA52AA21 /* Pods_QuickSquare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +120,12 @@
 		423003A51EFBE13900A5510A = {
 			isa = PBXGroup;
 			children = (
+				423003C31EFBE15C00A5510A /* Podfile */,
 				423003B01EFBE13A00A5510A /* QuickSquare */,
 				423003AF1EFBE13A00A5510A /* Products */,
+				49EC7B71AE39A41E392AF2D0 /* Pods */,
+				C5815F0A43192E149A95569D /* Frameworks */,
+				42C5EA411EFCEB4900500918 /* QuickSquare-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +140,113 @@
 		423003B01EFBE13A00A5510A /* QuickSquare */ = {
 			isa = PBXGroup;
 			children = (
-				423003B11EFBE13A00A5510A /* AppDelegate.swift */,
-				423003B31EFBE13A00A5510A /* ViewController.swift */,
 				423003B51EFBE13B00A5510A /* Main.storyboard */,
-				423003B81EFBE13B00A5510A /* Assets.xcassets */,
 				423003BA1EFBE13B00A5510A /* LaunchScreen.storyboard */,
+				42DB8F251F2B122600BF17B2 /* Assets.xcassets */,
+				423003C71EFBE44300A5510A /* App Files */,
+				423003EC1EFBE61400A5510A /* CollectionView */,
+				423003F61EFBF57B00A5510A /* Supportive Classes */,
 				423003BD1EFBE13B00A5510A /* Info.plist */,
 			);
 			path = QuickSquare;
+			sourceTree = "<group>";
+		};
+		423003C71EFBE44300A5510A /* App Files */ = {
+			isa = PBXGroup;
+			children = (
+				423003B11EFBE13A00A5510A /* AppDelegate.swift */,
+				423003F41EFBEBB800A5510A /* QuickSquareVC.swift */,
+				422604FF1F0255C900E2ED79 /* TestVC.swift */,
+				429035661F04DC8500FCBCD1 /* BeginVC.swift */,
+				4290356B1F04E21D00FCBCD1 /* GPUCameraVC.swift */,
+			);
+			name = "App Files";
+			sourceTree = "<group>";
+		};
+		423003EC1EFBE61400A5510A /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				422604F71F021A4700E2ED79 /* StickerCollectionVC.swift */,
+				422604FB1F02304700E2ED79 /* StickerTableCell.swift */,
+				422604FD1F02306700E2ED79 /* StickerCollectionViewCell.swift */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		423003F61EFBF57B00A5510A /* Supportive Classes */ = {
+			isa = PBXGroup;
+			children = (
+				429035561F04C6F300FCBCD1 /* GPUResources */,
+				429035411F04C6C800FCBCD1 /* GPUImageFrameWork */,
+				42B59C501F00D4F800E7E56E /* Methods Class */,
+				42B59C4F1F00D4D000E7E56E /* Blurry */,
+			);
+			name = "Supportive Classes";
+			sourceTree = "<group>";
+		};
+		429035411F04C6C800FCBCD1 /* GPUImageFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				42ED5DB91F3D7B630038DFBC /* GPUImage.xcodeproj */,
+			);
+			name = GPUImageFrameWork;
+			sourceTree = "<group>";
+		};
+		429035561F04C6F300FCBCD1 /* GPUResources */ = {
+			isa = PBXGroup;
+			children = (
+				4290354C1F04C6F000FCBCD1 /* lookup_amatorka.png */,
+				4290354D1F04C6F000FCBCD1 /* lookup_miss_etikate.png */,
+				4290354E1F04C6F000FCBCD1 /* lookup_soft_elegance_1.png */,
+				4290354F1F04C6F000FCBCD1 /* lookup_soft_elegance_2.png */,
+				429035501F04C6F000FCBCD1 /* lookup.png */,
+			);
+			name = GPUResources;
+			sourceTree = "<group>";
+		};
+		42B59C4F1F00D4D000E7E56E /* Blurry */ = {
+			isa = PBXGroup;
+			children = (
+				423003F71EFBF58700A5510A /* Blurry.swift */,
+			);
+			name = Blurry;
+			sourceTree = "<group>";
+		};
+		42B59C501F00D4F800E7E56E /* Methods Class */ = {
+			isa = PBXGroup;
+			children = (
+				42C5EA3A1EFCD5E800500918 /* Methods.swift */,
+			);
+			name = "Methods Class";
+			sourceTree = "<group>";
+		};
+		42ED5DBA1F3D7B630038DFBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42ED5DC01F3D7B630038DFBC /* libGPUImage.a */,
+				42ED5DC21F3D7B630038DFBC /* GPUImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49EC7B71AE39A41E392AF2D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCE4234658CE87625BACC168 /* Pods-QuickSquare.debug.xcconfig */,
+				5F2A8BC8E816EDE42DC42444 /* Pods-QuickSquare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5815F0A43192E149A95569D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42DB8F151F2B04B900BF17B2 /* CHTStickerView.framework */,
+				42B59C531F00DE8C00E7E56E /* TOCropViewController.framework */,
+				423003C51EFBE1E400A5510A /* CHTStickerView.framework */,
+				5DBE9B7BB35E90E95CF38998 /* Pods_QuickSquare.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,13 +256,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 423003C01EFBE13B00A5510A /* Build configuration list for PBXNativeTarget "QuickSquare" */;
 			buildPhases = (
+				FFE8583A80F0F599F02A4208 /* [CP] Check Pods Manifest.lock */,
 				423003AA1EFBE13A00A5510A /* Sources */,
 				423003AB1EFBE13A00A5510A /* Frameworks */,
 				423003AC1EFBE13A00A5510A /* Resources */,
+				9DF3368304BE92D9451894C5 /* [CP] Embed Pods Frameworks */,
+				EB6527113CB4A5CC205B68B2 /* [CP] Copy Pods Resources */,
+				429035641F04C77500FCBCD1 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				42ED5DC41F3D7B750038DFBC /* PBXTargetDependency */,
 			);
 			name = QuickSquare;
 			productName = QuickSquare;
@@ -92,11 +282,12 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = Polak;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					423003AD1EFBE13A00A5510A = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = GYW52GRB4M;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -112,6 +303,12 @@
 			mainGroup = 423003A51EFBE13900A5510A;
 			productRefGroup = 423003AF1EFBE13A00A5510A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 42ED5DBA1F3D7B630038DFBC /* Products */;
+					ProjectRef = 42ED5DB91F3D7B630038DFBC /* GPUImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				423003AD1EFBE13A00A5510A /* QuickSquare */,
@@ -119,30 +316,117 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		42ED5DC01F3D7B630038DFBC /* libGPUImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGPUImage.a;
+			remoteRef = 42ED5DBF1F3D7B630038DFBC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		42ED5DC21F3D7B630038DFBC /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = 42ED5DC11F3D7B630038DFBC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		423003AC1EFBE13A00A5510A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				429035521F04C6F000FCBCD1 /* lookup_miss_etikate.png in Resources */,
 				423003BC1EFBE13B00A5510A /* LaunchScreen.storyboard in Resources */,
-				423003B91EFBE13B00A5510A /* Assets.xcassets in Resources */,
+				423003C41EFBE15C00A5510A /* Podfile in Resources */,
+				429035551F04C6F000FCBCD1 /* lookup.png in Resources */,
+				429035531F04C6F000FCBCD1 /* lookup_soft_elegance_1.png in Resources */,
 				423003B71EFBE13B00A5510A /* Main.storyboard in Resources */,
+				429035511F04C6F000FCBCD1 /* lookup_amatorka.png in Resources */,
+				429035541F04C6F000FCBCD1 /* lookup_soft_elegance_2.png in Resources */,
+				42DB8F261F2B122600BF17B2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9DF3368304BE92D9451894C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickSquare/Pods-QuickSquare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB6527113CB4A5CC205B68B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickSquare/Pods-QuickSquare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFE8583A80F0F599F02A4208 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		423003AA1EFBE13A00A5510A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				423003B41EFBE13A00A5510A /* ViewController.swift in Sources */,
+				422604FE1F02306700E2ED79 /* StickerCollectionViewCell.swift in Sources */,
+				423003F51EFBEBB800A5510A /* QuickSquareVC.swift in Sources */,
+				4290356C1F04E21D00FCBCD1 /* GPUCameraVC.swift in Sources */,
+				422604FC1F02304700E2ED79 /* StickerTableCell.swift in Sources */,
 				423003B21EFBE13A00A5510A /* AppDelegate.swift in Sources */,
+				42C5EA3B1EFCD5E800500918 /* Methods.swift in Sources */,
+				422604F81F021A4700E2ED79 /* StickerCollectionVC.swift in Sources */,
+				422605001F0255C900E2ED79 /* TestVC.swift in Sources */,
+				429035671F04DC8500FCBCD1 /* BeginVC.swift in Sources */,
+				423003F81EFBF58700A5510A /* Blurry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42ED5DC41F3D7B750038DFBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImageFramework;
+			targetProxy = 42ED5DC31F3D7B750038DFBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		423003B51EFBE13B00A5510A /* Main.storyboard */ = {
@@ -259,26 +543,45 @@
 		};
 		423003C11EFBE13B00A5510A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE4234658CE87625BACC168 /* Pods-QuickSquare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = GYW52GRB4M;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/CHTStickerView",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/TOCropViewController",
+				);
 				INFOPLIST_FILE = QuickSquare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mobisoft.QuickSquare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QuickSquare-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		423003C21EFBE13B00A5510A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F2A8BC8E816EDE42DC42444 /* Pods-QuickSquare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = GYW52GRB4M;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/CHTStickerView",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/TOCropViewController",
+				);
 				INFOPLIST_FILE = QuickSquare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mobisoft.QuickSquare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QuickSquare-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +605,7 @@
 				423003C21EFBE13B00A5510A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
